@@ -1,14 +1,36 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u0T-qf-v7U">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--RegistrationVC-->
+        <scene sceneID="FZ8-bg-h9j">
+            <objects>
+                <viewController id="g8A-sH-ocp" customClass="RegistrationVC" customModule="SocietyMgmtApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iki-Cj-HVt"/>
+                        <viewControllerLayoutGuide type="bottom" id="gaP-NY-IcT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="O8F-vV-d2r">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3nD-vt-FHH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-833" y="122"/>
+        </scene>
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginVC" customModule="SocietyMgmtApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,6 +43,88 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-79" y="122"/>
+        </scene>
+        <!--My ProfileVC-->
+        <scene sceneID="gdM-84-c9s">
+            <objects>
+                <viewController id="fn8-1f-PSP" customClass="MyProfileVC" customModule="SocietyMgmtApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KeO-d6-i1S"/>
+                        <viewControllerLayoutGuide type="bottom" id="aqr-fu-168"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8OQ-2o-gCg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Profile!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pxj-Vn-sXO">
+                                <rect key="frame" x="62.5" y="304" width="250.5" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pxj-Vn-sXO" firstAttribute="centerX" secondItem="8OQ-2o-gCg" secondAttribute="centerX" id="Q9Z-w6-wJX"/>
+                            <constraint firstItem="Pxj-Vn-sXO" firstAttribute="centerY" secondItem="8OQ-2o-gCg" secondAttribute="centerY" id="cfi-pO-Goh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="JGw-Vb-W1x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLJ-yw-uEa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1887" y="451"/>
+        </scene>
+        <!--My SocietiesVC-->
+        <scene sceneID="doS-pe-EIR">
+            <objects>
+                <viewController id="oP0-pU-ev1" customClass="MySocietiesVC" customModule="SocietyMgmtApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h5A-c0-aH9"/>
+                        <viewControllerLayoutGuide type="bottom" id="72c-zV-xSZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AlJ-3F-6A7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Societies!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPl-KT-MGc">
+                                <rect key="frame" x="30" y="304" width="316.5" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vPl-KT-MGc" firstAttribute="centerX" secondItem="AlJ-3F-6A7" secondAttribute="centerX" id="47J-pN-IVE"/>
+                            <constraint firstItem="vPl-KT-MGc" firstAttribute="centerY" secondItem="AlJ-3F-6A7" secondAttribute="centerY" id="JD6-Bw-o7q"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="K3L-Kz-UjY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NK9-2R-rt9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1885.5999999999999" y="-204.64767616191907"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="zIZ-ql-hzT">
+            <objects>
+                <tabBarController id="u0T-qf-v7U" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="mwA-UH-Ayj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oP0-pU-ev1" kind="relationship" relationship="viewControllers" id="wcp-ut-XFT"/>
+                        <segue destination="fn8-1f-PSP" kind="relationship" relationship="viewControllers" id="MHg-GK-Kp6"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="LoginVC" id="NKE-KX-4Pv"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxB-i5-UI7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="122"/>
         </scene>
     </scenes>
 </document>
