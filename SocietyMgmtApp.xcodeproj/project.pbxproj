@@ -12,6 +12,8 @@
 		F0154DB11F02A7C7008BF31D /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0154DB01F02A7C7008BF31D /* MyProfileVC.swift */; };
 		F0183D141F02A28C00FF4581 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0183D131F02A28C00FF4581 /* RegistrationVC.swift */; };
 		F05D818B1F02A560001117D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F05D818A1F02A560001117D5 /* GoogleService-Info.plist */; };
+		F0B86C2E1F02A9F000781179 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B86C2D1F02A9F000781179 /* RoundedButton.swift */; };
+		F0B86C301F02AA1A00781179 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B86C2F1F02AA1A00781179 /* RoundTextField.swift */; };
 		F0FA4C131F01E1A800A12F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA4C121F01E1A800A12F75 /* AppDelegate.swift */; };
 		F0FA4C151F01E1A800A12F75 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA4C141F01E1A800A12F75 /* LoginVC.swift */; };
 		F0FA4C181F01E1A800A12F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0FA4C161F01E1A800A12F75 /* Main.storyboard */; };
@@ -28,6 +30,8 @@
 		F0154DB01F02A7C7008BF31D /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		F0183D131F02A28C00FF4581 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		F05D818A1F02A560001117D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0B86C2D1F02A9F000781179 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		F0B86C2F1F02AA1A00781179 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		F0FA4C0F1F01E1A800A12F75 /* SocietyMgmtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocietyMgmtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0FA4C121F01E1A800A12F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F0FA4C141F01E1A800A12F75 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		F0183D121F02A24A00FF4581 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F0B86C2D1F02A9F000781179 /* RoundedButton.swift */,
+				F0B86C2F1F02AA1A00781179 /* RoundTextField.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -252,10 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0B86C301F02AA1A00781179 /* RoundTextField.swift in Sources */,
 				F0154DB11F02A7C7008BF31D /* MyProfileVC.swift in Sources */,
 				F0FA4C151F01E1A800A12F75 /* LoginVC.swift in Sources */,
 				F0154DAF1F02A7A9008BF31D /* MySocietiesVC.swift in Sources */,
 				F0FA4C1B1F01E1A900A12F75 /* SocietyMgmtApp.xcdatamodeld in Sources */,
+				F0B86C2E1F02A9F000781179 /* RoundedButton.swift in Sources */,
 				F0FA4C131F01E1A800A12F75 /* AppDelegate.swift in Sources */,
 				F0183D141F02A28C00FF4581 /* RegistrationVC.swift in Sources */,
 			);
