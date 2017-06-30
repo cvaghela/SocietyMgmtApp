@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E55A6BDB331B45C80D9E353 /* Pods_SocietyMgmtApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8568AC514EFDCB0B4C6174 /* Pods_SocietyMgmtApp.framework */; };
+		F0061B131F05706D00331E49 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0061B121F05706D00331E49 /* Constants.swift */; };
 		F0154DAF1F02A7A9008BF31D /* MySocietiesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0154DAE1F02A7A9008BF31D /* MySocietiesVC.swift */; };
 		F0154DB11F02A7C7008BF31D /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0154DB01F02A7C7008BF31D /* MyProfileVC.swift */; };
 		F0183D141F02A28C00FF4581 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0183D131F02A28C00FF4581 /* RegistrationVC.swift */; };
@@ -28,6 +29,7 @@
 		68B206C1EF927F8BD1AE1162 /* Pods-SocietyMgmtApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocietyMgmtApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocietyMgmtApp/Pods-SocietyMgmtApp.debug.xcconfig"; sourceTree = "<group>"; };
 		7B8568AC514EFDCB0B4C6174 /* Pods_SocietyMgmtApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocietyMgmtApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3DA6BEFE22C8D6DC4EEB5DD /* Pods-SocietyMgmtApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocietyMgmtApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocietyMgmtApp/Pods-SocietyMgmtApp.release.xcconfig"; sourceTree = "<group>"; };
+		F0061B121F05706D00331E49 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F0154DAE1F02A7A9008BF31D /* MySocietiesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySocietiesVC.swift; sourceTree = "<group>"; };
 		F0154DB01F02A7C7008BF31D /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
 		F0183D131F02A28C00FF4581 /* RegistrationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 				A3DA6BEFE22C8D6DC4EEB5DD /* Pods-SocietyMgmtApp.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0061B111F05705100331E49 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F0061B121F05706D00331E49 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		F0183D101F02A23600FF4581 /* Controller */ = {
@@ -124,6 +134,7 @@
 		F0FA4C111F01E1A800A12F75 /* SocietyMgmtApp */ = {
 			isa = PBXGroup;
 			children = (
+				F0061B111F05705100331E49 /* Util */,
 				F0183D111F02A23E00FF4581 /* Model */,
 				F0183D121F02A24A00FF4581 /* View */,
 				F0183D101F02A23600FF4581 /* Controller */,
@@ -270,6 +281,7 @@
 				F0FA4C151F01E1A800A12F75 /* LoginVC.swift in Sources */,
 				F0154DAF1F02A7A9008BF31D /* MySocietiesVC.swift in Sources */,
 				F0FA4C1B1F01E1A900A12F75 /* SocietyMgmtApp.xcdatamodeld in Sources */,
+				F0061B131F05706D00331E49 /* Constants.swift in Sources */,
 				F0B86C2E1F02A9F000781179 /* RoundedButton.swift in Sources */,
 				F0FA4C131F01E1A800A12F75 /* AppDelegate.swift in Sources */,
 				F077DFB21F048A3100964E41 /* SocietyCell.swift in Sources */,
