@@ -16,6 +16,8 @@
 		F06E2C031F04518300392968 /* Saturday be like Madness.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F06E2C021F04518300392968 /* Saturday be like Madness.ttf */; };
 		F06E2C051F046C6A00392968 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06E2C041F046C6A00392968 /* Assets.xcassets */; };
 		F077DFB21F048A3100964E41 /* SocietyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F077DFB11F048A3100964E41 /* SocietyCell.swift */; };
+		F087F13A1F115273009E17A3 /* AddSocietyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F087F1391F115273009E17A3 /* AddSocietyVC.swift */; };
+		F087F13C1F115EF7009E17A3 /* SocietyControlsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F087F13B1F115EF7009E17A3 /* SocietyControlsVC.swift */; };
 		F0B86C2E1F02A9F000781179 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B86C2D1F02A9F000781179 /* RoundedButton.swift */; };
 		F0B86C301F02AA1A00781179 /* RoundTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0B86C2F1F02AA1A00781179 /* RoundTextField.swift */; };
 		F0FA4C131F01E1A800A12F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FA4C121F01E1A800A12F75 /* AppDelegate.swift */; };
@@ -37,6 +39,8 @@
 		F06E2C021F04518300392968 /* Saturday be like Madness.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Saturday be like Madness.ttf"; sourceTree = "<group>"; };
 		F06E2C041F046C6A00392968 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F077DFB11F048A3100964E41 /* SocietyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocietyCell.swift; sourceTree = "<group>"; };
+		F087F1391F115273009E17A3 /* AddSocietyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSocietyVC.swift; sourceTree = "<group>"; };
+		F087F13B1F115EF7009E17A3 /* SocietyControlsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocietyControlsVC.swift; sourceTree = "<group>"; };
 		F0B86C2D1F02A9F000781179 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		F0B86C2F1F02AA1A00781179 /* RoundTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundTextField.swift; sourceTree = "<group>"; };
 		F0FA4C0F1F01E1A800A12F75 /* SocietyMgmtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocietyMgmtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +96,8 @@
 				F0183D131F02A28C00FF4581 /* RegistrationVC.swift */,
 				F0154DAE1F02A7A9008BF31D /* MySocietiesVC.swift */,
 				F0154DB01F02A7C7008BF31D /* MyProfileVC.swift */,
+				F087F1391F115273009E17A3 /* AddSocietyVC.swift */,
+				F087F13B1F115EF7009E17A3 /* SocietyControlsVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -283,6 +289,8 @@
 				F0FA4C1B1F01E1A900A12F75 /* SocietyMgmtApp.xcdatamodeld in Sources */,
 				F0061B131F05706D00331E49 /* Constants.swift in Sources */,
 				F0B86C2E1F02A9F000781179 /* RoundedButton.swift in Sources */,
+				F087F13C1F115EF7009E17A3 /* SocietyControlsVC.swift in Sources */,
+				F087F13A1F115273009E17A3 /* AddSocietyVC.swift in Sources */,
 				F0FA4C131F01E1A800A12F75 /* AppDelegate.swift in Sources */,
 				F077DFB21F048A3100964E41 /* SocietyCell.swift in Sources */,
 				F0183D141F02A28C00FF4581 /* RegistrationVC.swift in Sources */,
